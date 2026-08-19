@@ -5,6 +5,6 @@ GenericName=iCloud Pages
 Comment=iCloud Pages
 Type=Application
 Categories=Office
-Icon=${SNAP}/meta/gui/pages.png
+Icon=${SNAP}/meta/gui/pages.svg
 Exec=icloud-for-linux.pages
 StartupWMClass=icloud-for-linux.pages

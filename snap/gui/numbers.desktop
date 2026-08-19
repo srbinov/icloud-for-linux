@@ -5,6 +5,6 @@ GenericName=iCloud Numbers
 Comment=iCloud Numbers
 Type=Application
 Categories=Office
-Icon=${SNAP}/meta/gui/numbers.png
+Icon=${SNAP}/meta/gui/numbers.svg
 Exec=icloud-for-linux.numbers
 StartupWMClass=icloud-for-linux.numbers

@@ -5,6 +5,6 @@ GenericName=iCloud Mail
 Comment=iCloud Mail
 Type=Application
 Categories=Office
-Icon=${SNAP}/meta/gui/mail.png
+Icon=${SNAP}/meta/gui/mail.svg
 Exec=icloud-for-linux.mail
 StartupWMClass=icloud-for-linux.mail

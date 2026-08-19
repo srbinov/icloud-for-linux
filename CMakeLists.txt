@@ -9,6 +9,19 @@ include_directories(subprojects/choc/choc)
 add_executable(
     ${PROJECT_NAME}
     src/main.cpp
+    src/app.cpp
+)
+
+add_executable(
+    ${PROJECT_NAME}-tests
+    tests/test_app.cpp
+    src/app.cpp
+)
+
+target_include_directories(
+    ${PROJECT_NAME}-tests
+    PRIVATE
+    src
 )
 
 if (${CMAKE_SYSTEM_NAME} MATCHES "Linux")
@@ -21,3 +34,7 @@ else()
 endif()
 
 install(TARGETS ${PROJECT_NAME} DESTINATION bin)
+install(PROGRAMS scripts/apple-maps scripts/apple-tv DESTINATION bin)
+
+enable_testing()
+add_test(NAME app COMMAND ${PROJECT_NAME}-tests)

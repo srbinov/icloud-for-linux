@@ -1,0 +1,2 @@
+#!/bin/sh
+exec "$(dirname "$0")/icloud-for-linux" https://tv.apple.com/ "Apple TV"

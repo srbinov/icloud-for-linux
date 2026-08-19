@@ -1,3 +1,4 @@
 *.snap
 build
+build-test
 .vscode/settings.json

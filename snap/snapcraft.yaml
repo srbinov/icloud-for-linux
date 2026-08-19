@@ -1,5 +1,5 @@
 name: icloud-for-linux
-version: '0.26'
+version: '0.27'
 summary: iCloud for Linux
 description: iCloud for Linux
 
@@ -27,6 +27,7 @@ apps:
       - network
       - network-status
       - opengl
+      - location
       - screen-inhibit-control
       - wayland
       - x11
@@ -79,6 +80,16 @@ apps:
     environment: *environment
   find:
     command: usr/bin/icloud-for-linux find Find
+    extensions: *extensions
+    plugs: *plugs
+    environment: *environment
+  maps:
+    command: usr/bin/apple-maps
+    extensions: *extensions
+    plugs: *plugs
+    environment: *environment
+  tv:
+    command: usr/bin/apple-tv
     extensions: *extensions
     plugs: *plugs
     environment: *environment

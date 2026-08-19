@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=0.11
+Name=Apple TV
+GenericName=Apple TV
+Comment=Apple TV
+Type=Application
+Categories=Office
+Icon=${SNAP}/meta/gui/tv.svg
+Exec=icloud-for-linux.tv
+StartupWMClass=icloud-for-linux.tv

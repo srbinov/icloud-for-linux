@@ -5,6 +5,6 @@ GenericName=iCloud Find
 Comment=iCloud Find
 Type=Application
 Categories=Office
-Icon=${SNAP}/meta/gui/find.png
+Icon=${SNAP}/meta/gui/find.svg
 Exec=icloud-for-linux.find
 StartupWMClass=icloud-for-linux.find

@@ -5,6 +5,6 @@ GenericName=iCloud Drive
 Comment=iCloud Drive
 Type=Application
 Categories=Office
-Icon=${SNAP}/meta/gui/drive.png
+Icon=${SNAP}/meta/gui/drive.svg
 Exec=icloud-for-linux.drive
 StartupWMClass=icloud-for-linux.drive

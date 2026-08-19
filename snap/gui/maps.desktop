@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=0.11
+Name=Apple Maps
+GenericName=Apple Maps
+Comment=Apple Maps
+Type=Application
+Categories=Office
+Icon=${SNAP}/meta/gui/maps.svg
+Exec=icloud-for-linux.maps
+StartupWMClass=icloud-for-linux.maps

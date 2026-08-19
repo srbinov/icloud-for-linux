@@ -5,6 +5,6 @@ GenericName=iCloud Contacts
 Comment=iCloud Contacts
 Type=Application
 Categories=Office
-Icon=${SNAP}/meta/gui/contacts.png
+Icon=${SNAP}/meta/gui/contacts.svg
 Exec=icloud-for-linux.contacts
 StartupWMClass=icloud-for-linux.contacts
